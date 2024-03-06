@@ -3,7 +3,7 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: #272727;
+    background-color: #1e1e1e;
     color: #fff;
     text-decoration: none;
   }
@@ -41,6 +41,7 @@ body {
     text-decoration: none;
     color: #fff;
     font-size: 15px;
+    
 }
 
 .profile-container i {
@@ -50,13 +51,15 @@ body {
 
 .project-container {
     background-color: #212121;
-    text-align: center;
     padding: 10px; 
     border-radius: 10px;
     margin: -160px auto; 
     max-width: 300px; 
+}
 
 
+.project-container h3 {
+  text-align: center;
 }
 
 
@@ -79,4 +82,12 @@ body {
 .project-container a {
   text-decoration: none;
   color: #fff;
+  margin-left: 5px;
+  transition: 0.5s;
 }
+
+.project-container a:hover {
+  color: #a67fb3;
+  text-decoration: underline;
+}
+

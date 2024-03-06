@@ -11,7 +11,7 @@ const Home = () => {
     linkedinUrl: 'https://www.linkedin.com/in/bruno-tota-gongora-80b8b8178/?trk=public_profile_browsemap&originalSubdomain=br',
     projects: new Map([
       ["Eccomerce Api em Golang", 'https://eccom-api.tottadev.com.br/swagger/index.html'],
-      ["Link do google", 'https://google.com.br']
+      ["To Do List Api", 'https://todo-api.tottadev.com.br/swagger/index.html#/']
     ])
   };
   
@@ -21,21 +21,14 @@ const Home = () => {
     role: 'Desenvolvedora Front-end',
     imageUrl: 'https://media.licdn.com/dms/image/D4D03AQELukHVgDpHog/profile-displayphoto-shrink_800_800/0/1689122683644?e=1715212800&v=beta&t=rl7rM4ZOXcUwyHV9PD2Zwc_h1Qrs5adi2_rn7J_emIk',
     linkedinUrl: 'https://www.linkedin.com/in/bianca-tota-gongora-739981160/',
-    projects: new Map([
-      ["Eccomerce Api em Golang", 'https://eccom-api.tottadev.com.br/swagger/index.html'],
-      ["Link do google", 'https://google.com.br']
-    ])
+    
   };
 
   const cardInfoBeatriz = {
     name: 'Beatriz Tota',
     role: 'Desenvolvedora Front-end',
-    imageUrl: 'https://i.pinimg.com/736x/52/f0/1c/52f01c25eec64a15f42f5aaf6953553b.jpg',
+    imageUrl: 'https://www.decortiles.com/upload/produtos/decortiles-natural-branco-br-15,5x15,5cm.jpg',
     linkedinUrl: 'ht',
-    projects: new Map([
-      ["Eccomerce Api em Golang", 'https://eccom-api.tottadev.com.br/swagger/index.html'],
-      ["Link do google", 'https://google.com.br']
-    ])
   };
 
 
