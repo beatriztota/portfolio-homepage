@@ -1,0 +1,82 @@
+body {
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #272727;
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .person {
+    background: linear-gradient(to bottom, #394240, #1a1a1a);
+    text-align: center;
+    padding: 10px; 
+    border-radius: 10px;
+    margin: 180px auto; 
+    max-width: 300px; 
+    transition: transform 0.3s ease-in-out; 
+  }
+  
+  .person:hover {
+    transform: scale(1.1);
+  }
+
+.profile-container {
+    text-align: center;
+    align-items: center;
+}
+
+
+.profile-container p {
+    color: #8c8c8c;
+}
+
+.profile-container img {
+    width: 150px; 
+    border-radius: 50%; 
+  }
+
+.profile-container a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 15px;
+}
+
+.profile-container i {
+    font-size: 25px;
+    margin-top: 6px;
+}
+
+.project-container {
+    background-color: #212121;
+    text-align: center;
+    padding: 10px; 
+    border-radius: 10px;
+    margin: -160px auto; 
+    max-width: 300px; 
+
+
+}
+
+
+.card-container {
+  display: flex;
+  justify-content: space-around; 
+}
+
+.card-wrapper-bruno {
+  align-items: center;
+  justify-content: center;
+  width: 260px;
+}
+
+.card-wrapper-bianca,
+.card-wrapper-beatriz {
+  width: 260px;
+}
+
+.project-container a {
+  text-decoration: none;
+  color: #fff;
+}
